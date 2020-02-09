@@ -12,6 +12,7 @@
 }
 .navbar-brand{
   font-family: 'Lobster', cursive;
+  color:#60574a;
 }
 section{
   padding-left: 1rem;
@@ -66,10 +67,7 @@ h2,h3{
   text-shadow: 1.7px 1.7px 1.7px #000;
 }
 
-.navbar-brand{
-  font-family: 'Lobster', cursive;
-  color:#154995;
-}
+
 
 .jumbotron {
   color: white;
