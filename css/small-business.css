@@ -1,0 +1,263 @@
+/*!
+ * Start Bootstrap - Small Business (https://startbootstrap.com/template-overviews/small-business)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-small-business/blob/master/LICENSE)
+ */
+
+
+ body {
+  font-family: 'Poppins', sans-serif;
+  color:#60574a;
+  background-color: #fff;  
+}
+.navbar-brand{
+  font-family: 'Lobster', cursive;
+}
+section{
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0rem;
+  padding-bottom: 1rem;
+}
+footer{
+background-color: #f2ece0;
+color: #BAB4AB;
+}
+.bg-blue{
+  background-color: #154995;
+}
+.bg-secondary{
+background-color: #BAB4AB;
+}
+.text-secondary{
+  color: #bab4ab;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #ff8800;
+  border-color: #ff8800; }
+  .btn-primary:hover {
+    color: #fff;
+    background-color: #EF8710;
+    border-color: #EF8710; }
+  .btn-primary:focus, .btn-primary.focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 136, 0, 0.5); }
+  .btn-primary.disabled, .btn-primary:disabled {
+    color: #fff;
+    background-color: #DF8620;
+    border-color: #DF8620; }
+  .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+  .show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #ff8800;
+    border-color: #ff8800; }
+    .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
+    .show > .btn-primary.dropdown-toggle:focus {
+      box-shadow: 0 0 0 0.2rem rgba(255, 136, 0, 0.5); }
+h1{
+  font-family: 'Lobster', cursive;
+  text-shadow: 1.6px 1.6px 1.6px #000;
+}
+h2,h3{
+  color:#154995 ;
+}
+
+.masthead-text{
+  text-shadow: 1.7px 1.7px 1.7px #000;
+}
+
+.navbar-brand{
+  font-family: 'Lobster', cursive;
+  color:#154995;
+}
+
+.jumbotron {
+  color: white;
+  background-image: url("../img/fast-trans-solidne-przeprowadzki-toruń-mobile.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+  margin-bottom: 0.5rem;
+}
+.masthead{
+  margin-top: 20vh;
+}
+.card-title{
+  font-size: 1.2rem;
+  color:#154995;
+  font-weight: 600;
+}
+.card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 0.8rem;
+}
+h1{
+  font-size: 2.1rem;
+ }
+ h2{
+   font-size: 1.4rem;
+ }
+ h3{
+   font-size: 1.3rem;
+ }
+ .lead{ font-size: 1rem;
+}
+
+
+@media (min-width: 375px) {
+  .card-title{
+    font-size: 1.4rem;
+    color:#154995;
+    font-weight: 600;
+  }
+  .card-footer {
+    padding: .50rem 1rem;
+    background-color: rgba(0,0,0,.03);
+    border-top: 1px solid rgba(0,0,0,.125);
+  }
+  .card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1rem;
+  }
+  h1{
+   font-size: 2.4rem;
+  }
+  h2{
+    font-size: 1.5rem;
+  }
+  h3{
+    font-size: 1.4rem;
+  }
+  .lead{ font-size: 1.1rem;
+  }
+  .jumbotron {
+    color: white;
+    background-image: url("../img/fast-trans-solidne-przeprowadzki-toruń-mobile.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    margin-bottom: 0.5rem;
+  }
+  .masthead{
+    margin-top: 30vh;
+    
+  
+  }
+}
+@media (min-width: 576px) {  
+  .masthead{
+    margin-top: 40vh;
+ 
+  }
+  h1{
+    font-size: 2.7rem;
+   }
+
+   .lead{
+    font-size: 1.1rem;
+  }
+  .jumbotron {
+    color: white;
+    background-image: url("../img/fast-trans-solidne-przeprowadzki-toruń-desktop.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 1rem;
+  }
+}
+@media (min-width: 768px) {  
+  .jumbotron {
+    color: white;
+    background-image: url("../img/fast-trans-solidne-przeprowadzki-toruń-desktop.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 5px;
+  }
+  h1{
+    font-size: 2.4rem;
+   }
+   .card-title {
+    font-size: 1.3rem;
+    color: #154995;
+  }
+   .lead{
+    font-size: 1rem;
+  }
+  .masthead{
+    margin-top: 0vh;
+  }
+}
+@media (min-width: 992px) { 
+  .jumbotron {
+    color: white;
+    background-image: url("../img/fast-trans-solidne-przeprowadzki-toruń-desktop.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110vh;
+    margin-bottom: 5px;
+  }
+  h1{
+    font-size: 3.5rem;
+   }
+   .card-title{
+    font-size: 1.4rem;
+    color:#154995
+  }
+   .lead{
+    font-size: 1.4rem;
+  }
+  .masthead{
+    margin-top: 5vh;
+    
+  }
+}
+@media (min-width: 1200px) {  
+  .jumbotron {
+    color: white;
+    background-image: url("../img/fast-trans-solidne-przeprowadzki-toruń-desktop.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 10px;
+  }
+  h1{
+    font-size: 4.1rem;
+   }
+   h2{
+    font-size: 2rem;
+  }
+  h3{
+    font-size: 1.7rem;
+  }
+  .lead{
+    font-size: 1.4rem;
+  }
+  .card-title{
+    font-size: 1.4rem;
+    color:#154995
+  }
+   .masthead{
+    margin-top: 0px;
+    margin-bottom: 150px;
+  }   
+}
+
+
+
+
+
+
+
+
+
+
+
